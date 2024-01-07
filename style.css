@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root{
+    --spancolor:#ff490e;
+    --footercolor:#000000;
+    --articlecolor:#f0f8ff;
+
+}
+
+/*     Nav Start  */
+
+html{
+    font-size: 62.5%;
+    transition: all .5s;
+}
+  
+nav ul,.icon{
+    text-align: center;
+}
+
+.navbar-brand span{
+    color: var(--spancolor);
+}
+
+.btn{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+
+.nav-item{
+    border-bottom: .2rem solid transparent;
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin: 0 1rem;
+}
+
+
+.nav-item:hover{
+    border-bottom: .2rem solid lightgray;
+}
+
+.active:active{
+    color: orange !important;
+}
+
+
+.icon .fas{
+    font-size: 1.6rem;
+    margin: 1rem 1rem;
+}
+/*     Nav end  */
+
+/*     Banner  */
+
+.gradient{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom,rgba(255,255,255,0.1),rgba(0,0,0,0.7));
+
+}
+
+.slideone{
+    width: 100%;
+    height: 70rem;
+    background-image: url(images/slideshow/two\ clap.jpeg);
+    background-size: 100% 100%;
+
+}
+
+.slidetwo{
+    width: 100%;
+    height: 70rem;
+    background-image: url(images/slideshow/write.jpeg);
+    background-size: 100% 100%;
+}
+
+.slidethree{
+    width: 100%;
+    height: 70rem;
+    background-image: url(images/slideshow/mistake.jpeg);
+    background-size: 100% 100%;
+}
+
+.parentxt{  
+    padding: 30rem 0 20rem 20rem;
+    width: 60%;
+    color: #fff;
+/*     position: relative;
+    left: 13rem;
+    top: 25rem; */
+}
+.parentxt h2{
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.parentxt p{
+    font-size: 2rem;
+    line-height: 1.3;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.parentxt a{
+    font-size: 2.3rem;
+    border-radius: 25rem;
+    padding: .6rem 2rem;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*     2 Container  */
+
+.onlycnr{
+    margin: 4rem auto;
+}
+
+.firstline{
+    margin: 3rem 0;
+    text-align: center;
+}
+.firstline h2{
+    display: inline-block;
+    font-size: 5rem ;
+    font-weight: bold;
+    text-transform: capitalize;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid orange;
+    margin: 0 auto;
+    letter-spacing: rem;
+    animation: typing 5s steps(40,end), blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+    from {
+      width: 0%;   
+    }
+    to {
+        width: 57%;
+    }
+}
+
+@keyframes blink-caret {
+    from,to{
+         border-color: transparent;}
+        50% {border-color: orange;}
+}
+
+.firstline span{
+    color:var(--spancolor);
+}
+.sidelinks{
+    padding: 10rem 0 0 0rem;
+}
+.sidelinks a{
+    font-weight: bold;
+    line-height: 1.5;
+    color: lightgray;
+    font-size: 2.5rem;
+    text-decoration: none;
+    border-left: 2px solid lightgray;
+    padding-left: 10px;
+
+}
+.sidelinks a:hover{
+    color: var(--spancolor);
+    border-left: 2px solid var(--spancolor);
+
+}
+.sidepara h2{
+        font-size: 4rem;
+}
+.sidepara span{
+    color: var(--spancolor);
+}
+.sidepara p{
+    text-align: justify;
+    font-size: 1.5rem;
+}
+.sidepara small{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+
+}
+
+/*    3 container   */
+
+.sec2{
+    background-color: var(--articlecolor);
+}
+.mparent{
+    margin: auto ;
+}
+.mparent h2{
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.mparent span{
+    color: var(--spancolor);
+}
+.mparent p{
+    font-size: 1.5rem;
+}
+.mparent small{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+/* Container 3 end   */
+
+/* Container 4 start  */
+
+.firstline2{
+    margin: 3rem 0;
+    text-align: center;
+}
+.firstline2 h2{
+    display: inline-block;
+    font-size: 5rem ;
+    font-weight: bold;
+    text-transform: capitalize;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid orange;
+    margin: 0 auto;
+    animation: typing2 3s steps(40,end), blink-caret .75s step-end infinite;
+}
+.firstline2 span{
+    color:var(--spancolor);
+}
+
+@keyframes typing2 {
+    from {
+      width: 0%;   
+    }
+    to {
+        width: 40%;
+    }
+}
+
+@keyframes blink-caret2 {
+    from,to{
+         border-color: transparent;}
+        50% {border-color: orange;}
+}
+
+.content_btm h2{
+    display: inline-block;
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+.content_btm font{
+    font-size: 1.8rem;
+    margin-left: 9rem;
+}
+.content_btm p{
+    font-size: 1.5rem;
+}
+.lastctn {
+    margin: 3rem 0;
+    text-align: center;
+}
+.lastctn a{
+    text-decoration: none;
+    border-bottom: 1px solid gray;
+    display: inline-block;
+    font-size: 2.3rem;
+    color: gray;
+
+}
+
+footer{
+    width: 100%;
+    background-color: var(--footercolor);
+}
+.first-div,.first-div2,.first-div3 {
+    margin: 5rem 0;
+}
+.first-div h2{
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+}
+.first-div span{
+    color: gray;
+}
+.first-div p{
+    color: gray;
+    font-size: 2rem;
+}
+
+.first-div2 h2{
+    color: #fff;
+
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+.first-div2 font{
+    color: gray;
+    font-size: 2rem;
+}
+
+.first-div3 h2{
+    font-size: 3rem;
+    color: #fff;
+}
+
+@media screen and (max-width:768px) {
+    html{
+        font-size: 47%;
+    }
+    .sidelinks{
+    padding: 2rem 0rem;
+    }
+    .sidepara{
+        margin: 1rem 0;
+    }
+    .mparent{
+        margin: 1rem 0;
+    }
+    footer{
+        text-align: center;
+    }
+
+}
+@media  screen and (max-width:600px) {
+    html{
+        font-size: 43%;
+    }
+    
+}
+
+@media screen and (max-width:550px) {
+    html{
+        font-size: 40%;
+    }
+}
+@media screen and (max-width:425px) {
+    html{
+        font-size: 30%;
+    }
+}
+@media screen and (max-width:375px) {
+    html{
+        font-size: 20%;
+    }
+}
+@media screen and (max-width:320px) {
+    html{
+        font-size: 15%;
+    }
+}
